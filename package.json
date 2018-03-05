@@ -1,0 +1,68 @@
+{
+  "name": "react-canvas-wrapper",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "React wrapper around a canvas element with a clean API for drawing.",
+  "repository": "ryanhefner/react-canvas-wrapper",
+  "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
+  "homepage": "https://github.com/ryanhefner/react-canvas-wrapper#readme",
+  "bugs": {
+    "url": "https://github.com/ryanhefner/react-canvas-wrapper/issues"
+  },
+  "files": [
+    "es",
+    "index.js",
+    "src",
+    "umd"
+  ],
+  "directories": {
+    "lib": "/src"
+  },
+  "main": "index.js",
+  "module": "es/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "clean": "rm -f index.js && rm -fr es && rm -fr umd",
+    "prebuild": "npm run clean",
+    "build": "node ./tools/build.js",
+    "watch": "babel ./src -d . --ignore __tests__ --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "node ./tools/build.js",
+    "push-release": "git push origin master && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": ">=15"
+  },
+  "dependencies": {
+    "clean-react-props": "^0.1.2",
+    "prop-types": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "gzip-size": "^4.1.0",
+    "jest": "^22.4.2",
+    "pretty-bytes": "^4.0.2",
+    "react": "^16.2.0",
+    "rollup": "^0.56.4",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.0.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.3",
+    "rollup-plugin-uglify": "^3.0.0",
+    "rollup-watch": "^4.3.1"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "canvas",
+    "component"
+  ]
+}
