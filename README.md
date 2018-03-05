@@ -1,4 +1,4 @@
-# react-canvas-wrapper
+# 🖼 react-canvas-wrapper
 
 React component that wraps a canvas element and offers a clean API for drawing.
 
