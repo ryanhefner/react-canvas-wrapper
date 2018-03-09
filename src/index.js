@@ -41,11 +41,11 @@ class Canvas extends Component {
 
     return (
       <canvas
+        {...cleanProps(this.props, ['width', 'height'])}
         ref={ref}
         width={width * pixelRatio}
         height={height * pixelRatio}
         style={{width, height}}
-        {...cleanProps(this.props)}
       />
     );
   }
