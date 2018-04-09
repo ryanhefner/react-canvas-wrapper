@@ -67,6 +67,17 @@
     "rollup-plugin-uglify": "^3.0.0",
     "rollup-watch": "^4.3.1"
   },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js"
+    ],
+    "setupFiles": [
+      "<rootDir>/tools/jest-setup.js"
+    ],
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js"
+  },
   "keywords": [
     "react",
     "react-component",
