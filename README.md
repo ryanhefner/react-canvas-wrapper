@@ -1,5 +1,11 @@
 # 🖼 react-canvas-wrapper
 
+[![npm version](https://badge.fury.io/js/react-canvas-wrapper.svg)](https://badge.fury.io/js/react-canvas-wrapper)
+[![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/ryanhefner/react-canvas-wrapper/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/react-canvas-wrapper?branch=master)
+[![CircleCI](https://circleci.com/gh/ryanhefner/react-canvas-wrapper.svg?style=shield)](https://circleci.com/gh/ryanhefner/react-canvas-wrapper)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ryanhefner/react-canvas-wrapper.svg)](https://greenkeeper.io/)
+
 React component that wraps a canvas element and offers a clean API for drawing.
 
 ## Install
@@ -29,7 +35,7 @@ yarn add react-canvas-wrapper
 **Example - Canvas `ref`**
 
 ```js
-import {Canvas} from 'react-indicators';
+import {Canvas} from 'react-canvas-wrapper';
 
 ...
 
@@ -57,7 +63,7 @@ import {Canvas} from 'react-indicators';
 **Example - Custom `draw` method**
 
 ```js
-import {Canvas} from 'react-indicators';
+import {Canvas} from 'react-canvas-wrapper';
 
 ...
   constructor(props) {
