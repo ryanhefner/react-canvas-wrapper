@@ -1036,7 +1036,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-clean-react-props@^0.2.1:
+clean-react-props@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/clean-react-props/-/clean-react-props-0.2.3.tgz#ef47bcc7a1e9f53d7a76dea296186fc4f257906d"
 
