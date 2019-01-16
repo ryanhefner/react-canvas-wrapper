@@ -69,6 +69,11 @@ acorn@^5.0.0, acorn@^5.5.3:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.1.tgz#f095829297706a7c9776958c0afc8930a9b9d9d8"
 
+acorn@^6.0.5:
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.0.5.tgz#81730c0815f3f3b34d8efa95cb7430965f4d887a"
+  integrity sha512-i33Zgp3XWtmZBMNvCr4azvOFeWVw1Rk6p3hfi3LUDvIFraOMywb1kAtrbi+med14m4Xfpqm3zRZMT+c0FNE7kg==
+
 ajv@^5.1.0:
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.2.tgz#73b5eeca3fab653e3d3f9422b341ad42205dc965"
@@ -3784,12 +3789,14 @@ rollup-watch@^4.3.1:
     require-relative "0.8.7"
     rollup-pluginutils "^2.0.1"
 
-rollup@^0.63.5:
-  version "0.63.5"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.63.5.tgz#5543eecac9a1b83b7e1be598b5be84c9c0a089db"
+rollup@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.1.0.tgz#461a7534b55be48aa4a6e6810a1543a5769e75d1"
+  integrity sha512-NK03gkkOz0CchHBMGomcNqa6U3jLNzHuWK9SI0+1FV475JA6cQxVtjlDcQoKKDNIQ3IwYumIlgoKYDEWUyFBwQ==
   dependencies:
     "@types/estree" "0.0.39"
     "@types/node" "*"
+    acorn "^6.0.5"
 
 rst-selector-parser@^2.2.3:
   version "2.2.3"
