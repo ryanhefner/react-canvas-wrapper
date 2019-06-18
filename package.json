@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "clean-react-props": "^0.3.0",
+    "nanoid": "^2.0.3",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {

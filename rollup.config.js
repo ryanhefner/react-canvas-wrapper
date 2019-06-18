@@ -13,12 +13,14 @@ const config = {
     format: 'umd',
     file: './index.js',
     globals: {
+      'crypto': 'crypto',
       'react': 'React',
     },
     banner: `/*! ${pkg.name} v${pkg.version} | (c) ${new Date().getFullYear()} Ryan Hefner | ${pkg.license} License | https://github.com/${pkg.repository} !*/`,
     footer: '/* follow me on Twitter! @ryanhefner */',
   },
   external: [
+    'crypto',
     'react',
   ],
   plugins: [
