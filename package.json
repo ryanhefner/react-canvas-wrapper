@@ -1,6 +1,6 @@
 {
   "name": "react-canvas-wrapper",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "description": "React wrapper around a canvas element with a clean API for drawing.",
   "repository": "ryanhefner/react-canvas-wrapper",
