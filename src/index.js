@@ -67,13 +67,10 @@ class Canvas extends Component {
   }
 }
 
-// Element shim
-const Element = typeof Element === 'undefined' ? function(){} : Element;
-
 Canvas.propTypes = {
   canvasRef: PropTypes.oneOfType([
     PropTypes.func,
-    PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+    PropTypes.shape({ current: PropTypes.elementType }),
   ]),
   draw: PropTypes.func,
   width: PropTypes.number,
