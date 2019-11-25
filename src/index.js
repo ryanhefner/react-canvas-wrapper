@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import cleanProps from 'clean-react-props';
 import nanoid from 'nanoid';
 
-
 class Canvas extends Component {
   constructor(props) {
     super(props);
@@ -67,6 +66,9 @@ class Canvas extends Component {
     );
   }
 }
+
+// Element shim
+const Element = typeof Element === 'undefined' ? function(){} : Element;
 
 Canvas.propTypes = {
   canvasRef: PropTypes.oneOfType([
