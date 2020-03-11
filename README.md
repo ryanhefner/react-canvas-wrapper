@@ -1,9 +1,11 @@
 # 🖼 react-canvas-wrapper
 
-[![npm version](https://badge.fury.io/js/react-canvas-wrapper.svg)](https://badge.fury.io/js/react-canvas-wrapper)
-[![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
-[![Coverage Status](https://coveralls.io/repos/github/ryanhefner/react-canvas-wrapper/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/react-canvas-wrapper?branch=master)
-[![CircleCI](https://circleci.com/gh/ryanhefner/react-canvas-wrapper.svg?style=shield)](https://circleci.com/gh/ryanhefner/react-canvas-wrapper)
+![npm](https://img.shields.io/npm/v/react-canvas-wrapper?style=flat-square)
+![NPM](https://img.shields.io/npm/l/react-canvas-wrapper?style=flat-square)
+![npm](https://img.shields.io/npm/dt/react-canvas-wrapper?style=flat-square)
+![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/react-canvas-wrapper?style=flat-square)
+![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/react-canvas-wrapper?style=flat-square)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/react-canvas-wrapper?style=flat-square)
 
 
 React component that wraps a canvas element and offers a clean API for drawing.
