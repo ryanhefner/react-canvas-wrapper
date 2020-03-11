@@ -41,17 +41,17 @@
     "react": ">=15"
   },
   "dependencies": {
-    "clean-react-props": "^0.3.4",
+    "clean-react-props": "^0.4.0",
     "nanoid": "^2.1.11",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.6",
+    "@babel/core": "^7.8.7",
     "@babel/plugin-external-helpers": "^7.8.3",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
-    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^25.1.0",
@@ -73,8 +73,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "regenerator-runtime": "^0.13.3",
-    "rollup": "^1.32.0",
-    "rollup-plugin-babel": "^4.3.3",
+    "rollup": "^2.0.3",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
