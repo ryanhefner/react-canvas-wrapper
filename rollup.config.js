@@ -1,8 +1,8 @@
-import babel from 'rollup-plugin-babel';
-import commonjs from 'rollup-plugin-commonjs';
-import json from 'rollup-plugin-json';
-import resolve from 'rollup-plugin-node-resolve';
-import { uglify } from 'rollup-plugin-uglify';
+import babel from '@rollup/plugin-babel';
+import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
+import resolve from '@rollup/plugin-node-resolve';
+import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
 
 const config = {
@@ -20,13 +20,14 @@ const config = {
     footer: '/* follow me on Twitter! @ryanhefner */',
   },
   external: [
+    /@babel\/runtime/,
     'crypto',
     'react',
   ],
   plugins: [
     babel({
       exclude: 'node_modules/**',
-      externalHelpers: process.env.BABEL_ENV === 'umd',
+      babelHelpers: process.env.BABEL_ENV === 'umd' ? 'bundled' : 'runtime',
     }),
     resolve(),
     commonjs({
@@ -37,7 +38,7 @@ const config = {
 };
 
 if (process.env.NODE_ENV === 'production') {
-  config.plugins.push(uglify());
+  config.plugins.push(terser());
 }
 
 export default config;

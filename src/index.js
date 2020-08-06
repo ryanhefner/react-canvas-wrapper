@@ -1,6 +1,6 @@
 import React, { forwardRef, useEffect, useMemo, useState, useRef } from 'react';
 import cleanProps from 'clean-react-props';
-import nanoid from 'nanoid';
+import { nanoid } from 'nanoid';
 
 const defaultProps = {
   draw: () => {},
