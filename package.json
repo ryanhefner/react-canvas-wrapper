@@ -6,6 +6,20 @@
   "repository": "ryanhefner/react-canvas-wrapper",
   "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
   "homepage": "https://github.com/ryanhefner/react-canvas-wrapper#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ryanhefner"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/ryanhefner"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/ryanhefner"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/ryanhefner/react-canvas-wrapper/issues"
   },
