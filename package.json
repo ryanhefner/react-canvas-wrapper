@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "clean-react-props": "^0.4.0",
-    "nanoid": "^3.1.18"
+    "nanoid": "^3.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.8",
