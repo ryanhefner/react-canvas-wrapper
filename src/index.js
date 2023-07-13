@@ -26,7 +26,7 @@ const Canvas = forwardRef((props, ref) => {
   const internalRef = ref || useRef();
 
   useEffect(() => {
-    draw(internalRef);
+    draw(internalRef.current);
   }, [JSON.stringify(props)]);
 
   const styleProp = useMemo(() => {

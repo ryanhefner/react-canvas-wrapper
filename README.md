@@ -28,7 +28,7 @@ yarn add react-canvas-wrapper
 
 **Properties**
 
-* `canvasRef:Function` - Function to set reference to `<canvas>` element. (Default: `(element) => { this.canvas = element; }`)
+* ~`canvasRef:Function` - Function to set reference to `<canvas>` element. (Default: `(element) => { this.canvas = element; }`)~ _**Note:** This can now be done by passing a simple `ref` prop. like you normally would in React.
 * `draw:Function` - Callback called when props change on the component. (Default: `(canvas) => {}`)
 * `width:Number` - Width of the canvas @ 1x. (Default: `30`)
 * `height:Number` - Height of the canvas @ 1x. (Default: `30`)
